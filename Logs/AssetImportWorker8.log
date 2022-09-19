@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'es' Physical Memory: 7545 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+51898
+Successfully changed project path to: C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
+C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 51.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600M (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     6103 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009137 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (143.5 KB). Loaded Objects now: 2991.
+Memory consumption went from 115.8 MB to 115.7 MB.
+Total: 4.447000 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.131300 ms MarkObjects: 3.799600 ms  DeleteObjects: 0.168100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 381561.423965 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Table 01_PTX.prefab
+  artifactKey: Guid(719d5fb894c63b040b6071d73cd4dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Table 01_PTX.prefab using Guid(719d5fb894c63b040b6071d73cd4dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2e3e8077d3c4ff2f7460732dc7effa') in 0.231132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.083804 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Camera Lights Post Processing/Main Camera.prefab
+  artifactKey: Guid(a8410d1728740ef47a1de0a05eedee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Camera Lights Post Processing/Main Camera.prefab using Guid(a8410d1728740ef47a1de0a05eedee6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe7e123817ccbcd5823377048e0a61c') in 0.011046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407230 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Character Prefabs/Roberto 01_PTX (GENERIC).prefab
+  artifactKey: Guid(a6aeb96b0d9ad094282df0f5accaea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Character Prefabs/Roberto 01_PTX (GENERIC).prefab using Guid(a6aeb96b0d9ad094282df0f5accaea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a587aa68f9e70f899929800edc681638') in 0.065504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351621 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Bedroom Closet No Door 01_PTX.prefab
+  artifactKey: Guid(ac0e4602b6aa9db4bb322bf4cfd62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Bedroom Closet No Door 01_PTX.prefab using Guid(ac0e4602b6aa9db4bb322bf4cfd62be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0897e609e7d1ed40b7833626cb30e28') in 0.029670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Drawer 02_PTX.prefab
+  artifactKey: Guid(d7cd77870ee407d419869a978a740db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Drawer 02_PTX.prefab using Guid(d7cd77870ee407d419869a978a740db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e4d5458e0545ddbfb1f99aa5e71a15') in 0.031905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Table 01 With Chairs_PTX.prefab
+  artifactKey: Guid(1bbd2eea449caff4a96bfd1b1d261655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Table 01 With Chairs_PTX.prefab using Guid(1bbd2eea449caff4a96bfd1b1d261655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2240c3b18702c192363e0cbe1e81bf98') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Office Table 01_PTX.prefab
+  artifactKey: Guid(325e0653415f21142a5c48302c28fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Office Table 01_PTX.prefab using Guid(325e0653415f21142a5c48302c28fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db62c5c7e15da2e7e30cd366c4594016') in 0.021766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Table 02_PTX.prefab
+  artifactKey: Guid(db3a75ca4a35cba4ea472efa90c36cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Table 02_PTX.prefab using Guid(db3a75ca4a35cba4ea472efa90c36cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd866416860e156155ae0e36189a5d1') in 0.025681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Sofa Table 01_PTX.prefab
+  artifactKey: Guid(ec30f7ca58ede394993bd66c23d3455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Furniture Prefabs/Sofa Table 01_PTX.prefab using Guid(ec30f7ca58ede394993bd66c23d3455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a355124b4649f05b5b74976e6cba2692') in 0.024596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.673559 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Basket 01_PTX.prefab
+  artifactKey: Guid(f1fcb3c5c2ffcc7418b0ec983ca4b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Basket 01_PTX.prefab using Guid(f1fcb3c5c2ffcc7418b0ec983ca4b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec818d9f900d9db145d36e90f948d4b7') in 0.026131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Bottle 01 Green_PTX.prefab
+  artifactKey: Guid(b06952e5e87d37a4293040465261e540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Bottle 01 Green_PTX.prefab using Guid(b06952e5e87d37a4293040465261e540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addf08e53a578f3d44091b1761fe8575') in 0.019090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Bottle 01 Red_PTX.prefab
+  artifactKey: Guid(b3553395a2dfea04a8b341c4d6484140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Bottle 01 Red_PTX.prefab using Guid(b3553395a2dfea04a8b341c4d6484140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a277db8de06a48c904e6b3086192dd') in 0.022748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Remote Controller 01_PTX.prefab
+  artifactKey: Guid(e906f45a69f1c834babac2ef07b1b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Remote Controller 01_PTX.prefab using Guid(e906f45a69f1c834babac2ef07b1b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c9f885a2e74a5627cfe21c8a6b9650') in 0.034088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Painting 01_PTX.prefab
+  artifactKey: Guid(1227e5da887fb74489b5ce8b5eb8a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Prop Prefabs/Painting 01_PTX.prefab using Guid(1227e5da887fb74489b5ce8b5eb8a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8d958f30c8eb6e2700e049071b4fa3') in 0.034903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.391541 seconds.
+  path: Assets/POLYTEX - Home/Scenes/All Prefabs/Lightmap-0_comp_dir.png
+  artifactKey: Guid(14f992747d1ab2648bbade2029ce4316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Scenes/All Prefabs/Lightmap-0_comp_dir.png using Guid(14f992747d1ab2648bbade2029ce4316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfbc2c860c1e7196f641db848891a93') in 0.030754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.579051 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Vegetation Prefabs/Plant 02 PTX.prefab
+  artifactKey: Guid(ce1e474f314772c4eb6288038e909fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Vegetation Prefabs/Plant 02 PTX.prefab using Guid(ce1e474f314772c4eb6288038e909fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267ee3642f4ac4c2310e0c733ed3cdad') in 0.029327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.719189 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bathroom.prefab
+  artifactKey: Guid(d283dde887323b34881847ba165b46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bathroom.prefab using Guid(d283dde887323b34881847ba165b46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e46e8ce3447474b4eb8b6686c032b5') in 0.229483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Livingroom.prefab
+  artifactKey: Guid(0fe14e4defa705640a322ac1f952ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Livingroom.prefab using Guid(0fe14e4defa705640a322ac1f952ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6321c2865c38ed49248b7a2c7d076601') in 0.342525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom.prefab
+  artifactKey: Guid(e789afc8d4b9d8f458354ae49aacfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom.prefab using Guid(e789afc8d4b9d8f458354ae49aacfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2531e6392ee28328b5e4f824a2bd0e4b') in 0.192504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.077885 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Electronics Prefabs/Lamp 01_PTX.prefab
+  artifactKey: Guid(3358d995aa3186e478b76f8664e69d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Electronics Prefabs/Lamp 01_PTX.prefab using Guid(3358d995aa3186e478b76f8664e69d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac952670a40c325adb58bc0f19398832') in 0.021813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYTEX - Home/Prefabs/Electronics Prefabs/TV 02_PTX.prefab
+  artifactKey: Guid(0544be8a09c2fa5429201f3a893dd0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Prefabs/Electronics Prefabs/TV 02_PTX.prefab using Guid(0544be8a09c2fa5429201f3a893dd0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6285fc0a55da18ba0366b73e70c77db') in 0.018188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.377404 seconds.
+  path: Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Skirting Mat1.mat
+  artifactKey: Guid(03ddc3c70e4adaa4ba80e56f3ddf59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Skirting Mat1.mat using Guid(03ddc3c70e4adaa4ba80e56f3ddf59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375b9bb55a2f3b3de9e22b9dc3c488b2') in 0.046317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Wall 05 Mat1.mat
+  artifactKey: Guid(ff525b9a6afd8ce4d85a73c0e37abfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Wall 05 Mat1.mat using Guid(ff525b9a6afd8ce4d85a73c0e37abfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75672c1639607c423818bc943ccd006') in 0.033467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Wall 02 Mat3.mat
+  artifactKey: Guid(9ea41f0c49f1c7e43aa3c72b5001ee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Materials/Wall Floor Skirting Materials/Wall 02 Mat3.mat using Guid(9ea41f0c49f1c7e43aa3c72b5001ee3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b7449ca5b2aaca507dc01b836c69aa') in 0.034324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.200577 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Bathroom/Bathtub 01_PTX.fbx
+  artifactKey: Guid(4213f91603ff0244a81d4325a53e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Bathroom/Bathtub 01_PTX.fbx using Guid(4213f91603ff0244a81d4325a53e854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a173f0187c57245e313027366694c1') in 0.408647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.257652 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Characters/Roberto/Roberto 01_PTX (HUMANOID).fbx
+  artifactKey: Guid(3ffbd4bf131e20248905dbcd9ddd9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Characters/Roberto/Roberto 01_PTX (HUMANOID).fbx using Guid(3ffbd4bf131e20248905dbcd9ddd9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6f6c773a14ffe6826a0710f019a7a6') in 0.037391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.942578 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Electronics/Lamp 01_PTX.fbx
+  artifactKey: Guid(7b9bb576ea3e322418887ee93b1771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Electronics/Lamp 01_PTX.fbx using Guid(7b9bb576ea3e322418887ee93b1771d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e710552c67bcedfdf10c2c9f14faae5f') in 0.021825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.613401 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Furniture/Chair 01_PTX.fbx
+  artifactKey: Guid(b1d3f6e5745a94849941705f1436965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture/Chair 01_PTX.fbx using Guid(b1d3f6e5745a94849941705f1436965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e67bc0b5589be7e8f738dc4f8027b1a') in 0.020540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Furniture/Sofa 01_PTX.fbx
+  artifactKey: Guid(97b6830754532d348854d9e80e6e69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture/Sofa 01_PTX.fbx using Guid(97b6830754532d348854d9e80e6e69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f53a45d60cde8bf0e28896b83ec393f') in 0.038544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Furniture/Pair Bed 01_PTX.fbx
+  artifactKey: Guid(77aa8265f0263674ab62ba031ee224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture/Pair Bed 01_PTX.fbx using Guid(77aa8265f0263674ab62ba031ee224cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe70424de23ffb4d74958896b838514') in 0.034138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Furniture/Sofa 02_PTX.fbx
+  artifactKey: Guid(85b6ab502d590c944bc75c1a35253ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture/Sofa 02_PTX.fbx using Guid(85b6ab502d590c944bc75c1a35253ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f2defb546c1d5decc89e8623c9cb6e') in 0.035770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Furniture/Table 02_PTX.fbx
+  artifactKey: Guid(3d8ff26c9da81b543b932e3c01512b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture/Table 02_PTX.fbx using Guid(3d8ff26c9da81b543b932e3c01512b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a6c52d5594c07285d5298e7dd5bbd8') in 0.027293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.685374 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Props/Bottles _PTX.fbx
+  artifactKey: Guid(41a678e7ad3780a4a9bfb214db2baf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Props/Bottles _PTX.fbx using Guid(41a678e7ad3780a4a9bfb214db2baf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee09e761b7e424946e785401797ca9a8') in 0.040594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632085 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Vegetation/Plant 02 PTX.fbx
+  artifactKey: Guid(7d5724ad634a30b4c9e1b5d43f2131d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Vegetation/Plant 02 PTX.fbx using Guid(7d5724ad634a30b4c9e1b5d43f2131d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61742859242e2c9fe6d166502f1a973') in 0.023417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.547752 seconds.
+  path: Assets/POLYTEX - Home/Models/Fbx/Walls Floors Skirting/Bedroom _PTX.fbx
+  artifactKey: Guid(4d63f4a207f8d1f4c9b858a5c57e7188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYTEX - Home/Models/Fbx/Walls Floors Skirting/Bedroom _PTX.fbx using Guid(4d63f4a207f8d1f4c9b858a5c57e7188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1cc666b20e62854565d4e31fe286dc') in 0.057623 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
