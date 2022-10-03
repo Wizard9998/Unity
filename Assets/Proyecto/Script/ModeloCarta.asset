@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5e04390f9e61a41962f58f9de3ce18, type: 3}
+  m_Name: ModeloCarta
+  m_EditorClassIdentifier: 
+  imagenCarta: {fileID: 0}
+  TextoDescripcion: Marte conocido como planeta rojo
+  restaVida: 0
+  sumaVida: 10
+  TextoEfecto: 0
+  esAtaque: 0

@@ -15,7 +15,7 @@ C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51242
+63225
 Successfully changed project path to: C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
 C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Usuario/OneDrive/Documentos/GitHub/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010471 seconds.
+Registered in 0.008502 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  0.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (446ms)
-			LoadAssemblies (134ms)
+		EndReloadAssembly (417ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (49ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013376 seconds.
+Registered in 0.007524 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
+- Completed reload, in  1.040 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1140ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (437ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (56.8 KB). Loaded Objects now: 2989.
 Memory consumption went from 113.1 MB to 113.1 MB.
-Total: 3.546800 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.073000 ms MarkObjects: 3.084300 ms  DeleteObjects: 0.097000 ms)
+Total: 3.360600 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.126200 ms MarkObjects: 2.811600 ms  DeleteObjects: 0.093100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,114 +159,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 372407.321358 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Fireplace.png
-  artifactKey: Guid(13597b049430824468ca1d48477afb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Items & Icons/Pixel Art/Fireplace.png using Guid(13597b049430824468ca1d48477afb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccd0f3deb72d5453fa9df61e03700a6') in 0.151987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.450251 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png
-  artifactKey: Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Uncolored.png using Guid(d58df5b5e36ba884f9c288a3020d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cabe70afd118f8e31dffd51ba95204a') in 0.030676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Blue.png
-  artifactKey: Guid(6d86e7e8a8b8f4a4ea3a10d9dee509b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Blue.png using Guid(6d86e7e8a8b8f4a4ea3a10d9dee509b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06eed71a13b8225919d073784c2ce3b') in 0.028079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood.png
-  artifactKey: Guid(7d84c9a0ef474dc42812bf290d722f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Platforms/Platform_Vertical_Wood.png using Guid(7d84c9a0ef474dc42812bf290d722f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2977e9b986f24ea6e1c58555b3219830') in 0.033053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.114162 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/-- Example Photos --/Crafting Example.PNG
-  artifactKey: Guid(a4d8cf470cb38154fb8591eed220cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/-- Example Photos --/Crafting Example.PNG using Guid(a4d8cf470cb38154fb8591eed220cddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9172b06d6821a265609812080bf784b8') in 0.154267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.913313 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Sounds/Explosion.wav
-  artifactKey: Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Sounds/Explosion.wav using Guid(d1698dd553af8ef4d887bc83b9687173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66c0656eab0668fa52905367f3b9417') in 0.073544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.133521 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Harpoon.png
-  artifactKey: Guid(3f40ae8170066bb4d8280a58328eaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Items & Icons/Gold Miner/Harpoon.png using Guid(3f40ae8170066bb4d8280a58328eaa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d2fdb6332d44822453276bc14301fb') in 0.034024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Sounds/LandingFootsteps.wav
-  artifactKey: Guid(a35ec44331d4b514cabf31e928f058b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Sounds/LandingFootsteps.wav using Guid(a35ec44331d4b514cabf31e928f058b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c20869a17b2e8f1f9e1840e75121c0') in 0.034841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png
-  artifactKey: Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png using Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0c529edfdd89d2f5bf6707f52bae8b') in 0.081088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.427519 seconds.
-  path: Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/pause.png
-  artifactKey: Guid(379c45e0c5ba5e54e8df03f52e4c7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/pause.png using Guid(379c45e0c5ba5e54e8df03f52e4c7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b739aadfa6f07d1168cf131a4b43508') in 0.031970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.590467 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Effects/PixelParticle.png
-  artifactKey: Guid(20cc7aa77cf0c554eaf57b9dfce35c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Effects/PixelParticle.png using Guid(20cc7aa77cf0c554eaf57b9dfce35c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b82ba11dd895455c2fdfa0a189ac922') in 0.039707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.736747 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Done.png
-  artifactKey: Guid(3d9791791d28a9745b616ce8d8113662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Food & Plants/Crops/Potatoes_Done.png using Guid(3d9791791d28a9745b616ce8d8113662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ef390898d1948095b7c86a8cfa318a') in 0.034151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.669497 seconds.
-  path: Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar1.png
-  artifactKey: Guid(4f0d8a728e226ac40a44b1738ca64db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar1.png using Guid(4f0d8a728e226ac40a44b1738ca64db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea84bbd3166f2d7a473fcb6f6e7280') in 0.026816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/bars/progress_bar_background.png
-  artifactKey: Guid(fcabe002e685bc147918c97e9538d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/bars/progress_bar_background.png using Guid(fcabe002e685bc147918c97e9538d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97631db8a2b9582a7ea09b20f47c9ee1') in 0.023099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.039318 seconds.
-  path: Assets/Assets_Descargados/Brackeys/2D Mega Pack/Environment/Gold Miner/Pyramids.png
-  artifactKey: Guid(9fdc2b7e1a8abbb4b88b95e2a3f4eb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Brackeys/2D Mega Pack/Environment/Gold Miner/Pyramids.png using Guid(9fdc2b7e1a8abbb4b88b95e2a3f4eb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de402b01d1321be0bcf499202e7c0f6') in 0.033336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.396299 seconds.
-  path: Assets/Assets_Descargados/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg
-  artifactKey: Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg using Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11fcd63232bca77d7da4ec49a316888') in 0.190938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.017393 seconds.
-  path: Assets/Assets_Descargados/TextMesh Pro/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b115a6d707a6d062181fb1f47f2d772') in 0.020715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034189 seconds.
-  path: Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent1.png
-  artifactKey: Guid(78e3daf76621d66448e594d6993adbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Descargados/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent1.png using Guid(78e3daf76621d66448e594d6993adbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e0f9d7f192f290f01f2a21d0851cc3') in 0.050293 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
